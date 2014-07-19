@@ -26,7 +26,7 @@ paras.forEach(function (para) {
     para.style.maxWidth = '40em';
 });
 
-var lists = document.getElementsByTagName('ul');
+var lists = document.querySelectorAll('ul, ol');
 lists = Array.prototype.slice.call(lists);
 lists.forEach(function (list) {
     list.style.maxWidth = '40em';
